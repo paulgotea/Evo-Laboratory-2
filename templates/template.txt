@@ -1,0 +1,11 @@
+<h1>{firstname}</h1>
+<h2>{lastname}</h2>
+
+<ul class="details">
+	<li><i class="fa fa-globe"></i> <strong>Address:</strong> {address}</li>
+	<li><i class="fa fa-phone"></i> <strong>Phone:</strong> {phone}</li>
+	<li><i class="fa fa-envelope"></i> <strong>E-mail:</strong> {email}</li>
+	<li><i class="fa fa-users"></i> <strong>Social Media:</strong> {social}</li>
+	<li><i class="fa fa-briefcase"></i> <strong>Work:<br/><br/></strong> {work}</li>
+</ul>
+<a href="../index.php" class="back text-left"><i class="fa fa-arrow-left"></i> Back to Home</a>

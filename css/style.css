@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.col-centered {
+	margin: auto;
+	float: none;
+}
+a {
+	color: #fff;
+}
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Open Sans';
+	color: #fff;
+	background: url('../img/bg.jpg') no-repeat fixed;
+	background-size: cover;
+}
+
+section.content {
+	padding: 20px 0 30px 0;
+}
+section.content form {
+	margin-top: 30px;
+}
+section.content form input {
+	margin-bottom: 20px;
+}
+section.content form button[type="submit"] {
+	font-size: 17px;
+	font-weight: 600;
+	border: 1px solid #fff;
+	background: none;
+	text-transform: uppercase;
+	transition: 0.4s;
+}
+section.content form button[type="submit"]:hover {
+	color: #2c3e50;
+	text-transform: uppercase;
+	background-color: #fff;
+}
+section.content ul li  {
+	font-size: 18px;
+	font-weight: 300;
+	padding: 30px 0 30px 0;
+	list-style: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+section.content ul li i.fa {
+	margin-right: 20px;
+}
+section.content ul.files-container {
+	list-style: none;
+}
+section.content ul.files-container h2 {
+	margin-top: 35px;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+section.content p.statistics {
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+footer {
+	padding: 30px 0 20px 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+footer p {
+	text-align: center;
+}
+
+
+a.back {
+	text-transform: uppercase;
+	margin-top: 30px;
+	display: block;
+	color: #fff;
+	font-size: 15px;
+}
